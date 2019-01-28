@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4306B4722099C35300DBDAD8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4306B4712099C35300DBDAD8 /* OpenGL.framework */; };
+		4306B4742099C35900DBDAD8 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4306B4732099C35900DBDAD8 /* GLUT.framework */; };
+		4306B47A2099C4AE00DBDAD8 /* Graphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4306B4782099C4AE00DBDAD8 /* Graphics.cpp */; };
+		4306B47D2099D8E000DBDAD8 /* neighbors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4306B47B2099D8E000DBDAD8 /* neighbors.cpp */; };
+		4306B4802099E23B00DBDAD8 /* zpr.c in Sources */ = {isa = PBXBuildFile; fileRef = 4306B47E2099E23B00DBDAD8 /* zpr.c */; };
+		431DCB0D204460BE00E038C9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 431DCB0C204460BE00E038C9 /* main.cpp */; };
+		431DCB16204462B600E038C9 /* DataStructures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 431DCB14204462B600E038C9 /* DataStructures.cpp */; };
+		431DCB19204465CE00E038C9 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 431DCB17204465CE00E038C9 /* Utils.cpp */; };
+		431DCB1C2044678B00E038C9 /* Parsers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 431DCB1A2044678B00E038C9 /* Parsers.cpp */; };
+		431DCB1F20446A2100E038C9 /* CavVis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 431DCB1D20446A2100E038C9 /* CavVis.cpp */; };
+		431DCB2220446B8000E038C9 /* Surface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 431DCB2020446B8000E038C9 /* Surface.cpp */; };
+		43ECA19F21A729AC00139119 /* dbscan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43ECA19D21A729AC00139119 /* dbscan.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		431DCB07204460BE00E038C9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4306B4712099C35300DBDAD8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		4306B4732099C35900DBDAD8 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		4306B4782099C4AE00DBDAD8 /* Graphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Graphics.cpp; sourceTree = "<group>"; };
+		4306B4792099C4AE00DBDAD8 /* Graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graphics.h; sourceTree = "<group>"; };
+		4306B47B2099D8E000DBDAD8 /* neighbors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = neighbors.cpp; sourceTree = "<group>"; };
+		4306B47C2099D8E000DBDAD8 /* neighbors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = neighbors.h; sourceTree = "<group>"; };
+		4306B47E2099E23B00DBDAD8 /* zpr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zpr.c; sourceTree = "<group>"; };
+		4306B47F2099E23B00DBDAD8 /* zpr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zpr.h; sourceTree = "<group>"; };
+		431DCB09204460BE00E038C9 /* CavVis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CavVis; sourceTree = BUILT_PRODUCTS_DIR; };
+		431DCB0C204460BE00E038C9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		431DCB132044611200E038C9 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		431DCB14204462B600E038C9 /* DataStructures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataStructures.cpp; sourceTree = "<group>"; };
+		431DCB15204462B600E038C9 /* DataStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStructures.h; sourceTree = "<group>"; };
+		431DCB17204465CE00E038C9 /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		431DCB18204465CE00E038C9 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		431DCB1A2044678B00E038C9 /* Parsers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parsers.cpp; sourceTree = "<group>"; };
+		431DCB1B2044678B00E038C9 /* Parsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parsers.h; sourceTree = "<group>"; };
+		431DCB1D20446A2100E038C9 /* CavVis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CavVis.cpp; sourceTree = "<group>"; };
+		431DCB1E20446A2100E038C9 /* CavVis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CavVis.h; sourceTree = "<group>"; };
+		431DCB2020446B8000E038C9 /* Surface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Surface.cpp; sourceTree = "<group>"; };
+		431DCB2120446B8000E038C9 /* Surface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Surface.h; sourceTree = "<group>"; };
+		431DCB2C204472A400E038C9 /* quickhull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quickhull.h; sourceTree = "<group>"; };
+		431DCB2D204472A400E038C9 /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		431DCB2E204472A400E038C9 /* voxelizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voxelizer.h; sourceTree = "<group>"; };
+		431DCB3320447F5900E038C9 /* Changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Changelog.txt; sourceTree = "<group>"; };
+		43ECA19D21A729AC00139119 /* dbscan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dbscan.cpp; sourceTree = "<group>"; };
+		43ECA19E21A729AC00139119 /* dbscan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbscan.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		431DCB06204460BE00E038C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4306B4742099C35900DBDAD8 /* GLUT.framework in Frameworks */,
+				4306B4722099C35300DBDAD8 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		431DCB00204460BE00E038C9 = {
+			isa = PBXGroup;
+			children = (
+				4306B4732099C35900DBDAD8 /* GLUT.framework */,
+				4306B4712099C35300DBDAD8 /* OpenGL.framework */,
+				431DCB0B204460BE00E038C9 /* CavVis */,
+				431DCB0A204460BE00E038C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		431DCB0A204460BE00E038C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				431DCB09204460BE00E038C9 /* CavVis */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		431DCB0B204460BE00E038C9 /* CavVis */ = {
+			isa = PBXGroup;
+			children = (
+				431DCB28204470A100E038C9 /* Libs */,
+				431DCB3320447F5900E038C9 /* Changelog.txt */,
+				431DCB0C204460BE00E038C9 /* main.cpp */,
+				431DCB132044611200E038C9 /* main.h */,
+				431DCB1D20446A2100E038C9 /* CavVis.cpp */,
+				431DCB1E20446A2100E038C9 /* CavVis.h */,
+				431DCB17204465CE00E038C9 /* Utils.cpp */,
+				431DCB18204465CE00E038C9 /* Utils.h */,
+				431DCB1A2044678B00E038C9 /* Parsers.cpp */,
+				431DCB1B2044678B00E038C9 /* Parsers.h */,
+				431DCB2020446B8000E038C9 /* Surface.cpp */,
+				431DCB2120446B8000E038C9 /* Surface.h */,
+				4306B4782099C4AE00DBDAD8 /* Graphics.cpp */,
+				4306B4792099C4AE00DBDAD8 /* Graphics.h */,
+				431DCB14204462B600E038C9 /* DataStructures.cpp */,
+				431DCB15204462B600E038C9 /* DataStructures.h */,
+			);
+			path = CavVis;
+			sourceTree = "<group>";
+		};
+		431DCB28204470A100E038C9 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				43ECA19D21A729AC00139119 /* dbscan.cpp */,
+				43ECA19E21A729AC00139119 /* dbscan.h */,
+				4306B47E2099E23B00DBDAD8 /* zpr.c */,
+				4306B47F2099E23B00DBDAD8 /* zpr.h */,
+				4306B47B2099D8E000DBDAD8 /* neighbors.cpp */,
+				4306B47C2099D8E000DBDAD8 /* neighbors.h */,
+				431DCB2C204472A400E038C9 /* quickhull.h */,
+				431DCB2D204472A400E038C9 /* tree.h */,
+				431DCB2E204472A400E038C9 /* voxelizer.h */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		431DCB08204460BE00E038C9 /* CavVis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431DCB10204460BE00E038C9 /* Build configuration list for PBXNativeTarget "CavVis" */;
+			buildPhases = (
+				431DCB05204460BE00E038C9 /* Sources */,
+				431DCB06204460BE00E038C9 /* Frameworks */,
+				431DCB07204460BE00E038C9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CavVis;
+			productName = CavVis;
+			productReference = 431DCB09204460BE00E038C9 /* CavVis */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		431DCB01204460BE00E038C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = UBI;
+				TargetAttributes = {
+					431DCB08204460BE00E038C9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 431DCB04204460BE00E038C9 /* Build configuration list for PBXProject "CavVis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 431DCB00204460BE00E038C9;
+			productRefGroup = 431DCB0A204460BE00E038C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				431DCB08204460BE00E038C9 /* CavVis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		431DCB05204460BE00E038C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4306B4802099E23B00DBDAD8 /* zpr.c in Sources */,
+				431DCB1C2044678B00E038C9 /* Parsers.cpp in Sources */,
+				43ECA19F21A729AC00139119 /* dbscan.cpp in Sources */,
+				4306B47A2099C4AE00DBDAD8 /* Graphics.cpp in Sources */,
+				431DCB1F20446A2100E038C9 /* CavVis.cpp in Sources */,
+				431DCB16204462B600E038C9 /* DataStructures.cpp in Sources */,
+				431DCB19204465CE00E038C9 /* Utils.cpp in Sources */,
+				431DCB0D204460BE00E038C9 /* main.cpp in Sources */,
+				4306B47D2099D8E000DBDAD8 /* neighbors.cpp in Sources */,
+				431DCB2220446B8000E038C9 /* Surface.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		431DCB0E204460BE00E038C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		431DCB0F204460BE00E038C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		431DCB11204460BE00E038C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "-Wno-deprecated";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		431DCB12204460BE00E038C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "-Wno-deprecated";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		431DCB04204460BE00E038C9 /* Build configuration list for PBXProject "CavVis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431DCB0E204460BE00E038C9 /* Debug */,
+				431DCB0F204460BE00E038C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		431DCB10204460BE00E038C9 /* Build configuration list for PBXNativeTarget "CavVis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431DCB11204460BE00E038C9 /* Debug */,
+				431DCB12204460BE00E038C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 431DCB01204460BE00E038C9 /* Project object */;
+}
