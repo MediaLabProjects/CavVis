@@ -7,3 +7,7 @@
 # Usage
 For usage examples, type in the terminal:
 > ./CavVis --help
+
+# License
+CavVis is licensed under GNU General Public License v3.0.
+CavVis also uses some external third party libraries. Licenses for such third party libraries obey their own license.
